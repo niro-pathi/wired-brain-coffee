@@ -1,12 +1,13 @@
-﻿<Properties StartupConfiguration="{B937BA86-DBE5-469D-8E51-E3B4A8A1EC63}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/WiredBrainCoffee/Program.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{B937BA86-DBE5-469D-8E51-E3B4A8A1EC63}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="wired-brain-coffee" expanded="True">
+          <Node name="wired-brain-coffee" expanded="True" selected="True">
             <Node name="src" expanded="True">
               <Node name="WiredBrainCoffee" expanded="True">
-                <Node name="Program.cs" selected="True" />
+                <Node name="Entities" expanded="True" />
+                <Node name="Repositories" expanded="True" />
               </Node>
             </Node>
             <Node name="test" expanded="True">

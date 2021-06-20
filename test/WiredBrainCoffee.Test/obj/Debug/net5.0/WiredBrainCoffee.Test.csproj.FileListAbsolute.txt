@@ -97,3 +97,9 @@
 /Users/np351100/apps/DotNetProjects/wired-brain-coffee/test/WiredBrainCoffee.Test/obj/Debug/net5.0/ref/WiredBrainCoffee.Test.dll
 /Users/np351100/apps/DotNetProjects/wired-brain-coffee/test/WiredBrainCoffee.Test/obj/Debug/net5.0/WiredBrainCoffee.Test.pdb
 /Users/np351100/apps/DotNetProjects/wired-brain-coffee/test/WiredBrainCoffee.Test/obj/Debug/net5.0/WiredBrainCoffee.Test.genruntimeconfig.cache
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/test/WiredBrainCoffee.Test/bin/Debug/net5.0/CoverletSourceRootsMapping
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/test/WiredBrainCoffee.Test/bin/Debug/net5.0/WiredBrainCoffee.deps.json
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/test/WiredBrainCoffee.Test/bin/Debug/net5.0/WiredBrainCoffee.runtimeconfig.json
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/test/WiredBrainCoffee.Test/bin/Debug/net5.0/WiredBrainCoffee.runtimeconfig.dev.json
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/test/WiredBrainCoffee.Test/bin/Debug/net5.0/WiredBrainCoffee.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/test/WiredBrainCoffee.Test/bin/Debug/net5.0/WiredBrainCoffee.pdb
