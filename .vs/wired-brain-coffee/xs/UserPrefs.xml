@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{B937BA86-DBE5-469D-8E51-E3B4A8A1EC63}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/WiredBrainCoffee/Program.cs">
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="wired-brain-coffee" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="WiredBrainCoffee" expanded="True">
+                <Node name="Program.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="test" expanded="True">
+              <Node name="WiredBrainCoffee.Test" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="wired-brain-coffee" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.src.WiredBrainCoffee PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

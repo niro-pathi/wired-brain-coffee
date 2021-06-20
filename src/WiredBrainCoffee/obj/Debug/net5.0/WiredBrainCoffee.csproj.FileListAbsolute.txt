@@ -1,0 +1,15 @@
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/WiredBrainCoffee.deps.json
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/WiredBrainCoffee.runtimeconfig.json
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/WiredBrainCoffee.runtimeconfig.dev.json
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/WiredBrainCoffee.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/ref/WiredBrainCoffee.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/WiredBrainCoffee.pdb
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/WiredBrainCoffee.csproj.AssemblyReference.cache
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/WiredBrainCoffee.GeneratedMSBuildEditorConfig.editorconfig
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/WiredBrainCoffee.AssemblyInfoInputs.cache
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/WiredBrainCoffee.AssemblyInfo.cs
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/WiredBrainCoffee.csproj.CoreCompileInputs.cache
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/WiredBrainCoffee.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/ref/WiredBrainCoffee.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/WiredBrainCoffee.pdb
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/WiredBrainCoffee.genruntimeconfig.cache
