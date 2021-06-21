@@ -6,6 +6,7 @@
           <Node name="wired-brain-coffee" expanded="True" selected="True">
             <Node name="src" expanded="True">
               <Node name="WiredBrainCoffee" expanded="True">
+                <Node name="Data" expanded="True" />
                 <Node name="Entities" expanded="True" />
                 <Node name="Repositories" expanded="True" />
               </Node>

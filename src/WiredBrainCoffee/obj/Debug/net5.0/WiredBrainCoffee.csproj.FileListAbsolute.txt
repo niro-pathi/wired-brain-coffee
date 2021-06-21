@@ -13,3 +13,16 @@
 /Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/ref/WiredBrainCoffee.dll
 /Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/WiredBrainCoffee.pdb
 /Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/WiredBrainCoffee.genruntimeconfig.cache
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/Microsoft.Extensions.Logging.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/Microsoft.Extensions.Options.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/Microsoft.Extensions.Primitives.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/np351100/apps/DotNetProjects/wired-brain-coffee/src/WiredBrainCoffee/obj/Debug/net5.0/WiredBrainCoffee.csproj.CopyComplete
