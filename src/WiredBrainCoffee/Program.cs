@@ -10,22 +10,22 @@ namespace WiredBrainCoffee
         static void Main(string[] args)
         {
             var employeeRepository = new SqlRepository<Employee>(new StorageAppDBContext());
-            AddEmployeeType(employeeRepository);
+            employeeRepository.ItemAdded += EmployeeRepository_ItemAdded;
+
+            AddEmployee(employeeRepository);
             AddManagers(employeeRepository);
             DisplayAllRecords(employeeRepository);
             GetRecordById(employeeRepository);
 
             var organizationRepository = new ListRepository<Organization>();
-            AddOrganizationType(organizationRepository);
+            AddOrganization(organizationRepository);
             DisplayAllRecords(organizationRepository);
             GetRecordById(organizationRepository);
         }
 
-        private static void AddManagers(IWriteRepository<Manager> managerRepository)
+        private static void EmployeeRepository_ItemAdded(object sender, Employee e)
         {
-            managerRepository.Add(new Manager { Firstname = "Sara" });
-            managerRepository.Add(new Manager { Firstname = "Sara" });
-            managerRepository.Save();
+            Console.WriteLine($"Employee added => {e.Firstname}");
         }
 
         private static void DisplayAllRecords(IReadRepository<IEntity> repository)
@@ -44,19 +44,49 @@ namespace WiredBrainCoffee
             Console.WriteLine($"Requested Record is {item}");
         }
 
-        private static void AddEmployeeType(IRepository<Employee> employeeRepository)
+        private static void AddManagers(IWriteRepository<Manager> managerRepository)
         {
-            employeeRepository.Add(new Employee { Firstname = "Julia" });
-            employeeRepository.Add(new Employee { Firstname = "Anna" });
-            employeeRepository.Add(new Employee { Firstname = "Thomas" });
-            employeeRepository.Save();
+
+            var saraManager = new Manager { Firstname = "Sara" };
+            var saraManagerCopy = saraManager.Copy();
+            managerRepository.Add(saraManager);
+
+            if(saraManagerCopy is not null)
+            {
+                saraManagerCopy.Firstname += "_Copy";
+                managerRepository.Add(saraManagerCopy);
+            }
+
+            managerRepository.Add(new Manager { Firstname = "Henry" });
+            managerRepository.Save();
         }
 
-        private static void AddOrganizationType(IRepository<Organization> organizationRepository)
+        private static void AddEmployee(IRepository<Employee> employeeRepository)
         {
-            organizationRepository.Add(new Organization { Name = "Microsoft" });
-            organizationRepository.Add(new Organization { Name = "Pluralsight" });
-            organizationRepository.Save();
+            var employees = new[]
+            {
+                new Employee { Firstname = "Julia" },
+                new Employee { Firstname = "Anna" },
+                new Employee { Firstname = "Thomas" }
+            };
+           
+            employeeRepository.AddBatch(employees);
+
         }
+
+        private static void AddOrganization(IRepository<Organization> organizationRepository)
+        {
+
+            var organizations = new[]
+            {
+                new Organization { Name = "Microsoft" },
+                new Organization { Name = "Pluralsight" }
+            };
+
+            organizationRepository.AddBatch(organizations);
+
+        }
+
+       
     }
 }

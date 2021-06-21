@@ -12,35 +12,46 @@ namespace WiredBrainCoffee.Test
         public void ValidateEmployeeEntitiy()
         {
             var employeeRepository = new SqlRepository<Employee>(new StorageAppDBContext());
-            AddEmployee(employeeRepository);
+            AddEmployees(employeeRepository);
             var employee = employeeRepository.GetById(2);
 
             Assert.Equal("Anna", employee.Firstname);
 
         }
 
-        private static void AddEmployee(IRepository<Employee> employeeRepository)
+        private static void AddEmployees(IRepository<Employee> employeeRepository)
         {
-            employeeRepository.Add(new Employee { Firstname = "Julia" });
-            employeeRepository.Add(new Employee { Firstname = "Anna" });
-            employeeRepository.Add(new Employee { Firstname = "Thomas" });
+            var employees = new[]
+             {
+                new Employee { Firstname = "Julia" },
+                new Employee { Firstname = "Anna" },
+                new Employee { Firstname = "Thomas" }
+            };
+
+            employeeRepository.AddBatch(employees);
         }
 
         [Fact]
         public void ValidateOrganizationEntitiy()
         {
             var organizationRepository = new ListRepository<Organization>();
-            AddOrganization(organizationRepository);
+            AddOrganizations(organizationRepository);
             var organization = organizationRepository.GetById(2);
 
             Assert.Equal("Pluralsight", organization.Name);
 
         }
 
-        private static void AddOrganization(IRepository<Organization> organizationRepository)
+        private static void AddOrganizations(IRepository<Organization> organizationRepository)
         {
-            organizationRepository.Add(new Organization { Name = "Microsoft" });
-            organizationRepository.Add(new Organization { Name = "Pluralsight" });
+            var organizations = new[]
+            {
+                new Organization { Name = "Microsoft" },
+                new Organization { Name = "Pluralsight" }
+            };
+
+            organizationRepository.AddBatch(organizations);
         }
+
     }
 }
